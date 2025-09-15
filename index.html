@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mohamed Sherif Adam | Portfolio</title>
+  <style>
+    /* --- Global Styles --- */
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: Arial, sans-serif; line-height: 1.6; background: #f9f9f9; color: #333; }
+    a { text-decoration: none; color: inherit; }
+    h1, h2, h3 { margin-bottom: 10px; }
+
+    /* --- Navbar --- */
+    nav { background: #222; color: #fff; padding: 15px; display: flex; justify-content: space-between; align-items: center; }
+    nav ul { display: flex; list-style: none; }
+    nav ul li { margin-left: 20px; }
+    nav ul li a { color: #fff; font-weight: bold; }
+
+    /* --- Hero --- */
+    .hero { background: #0073e6; color: #fff; padding: 80px 20px; text-align: center; }
+    .hero h1 { font-size: 2.5rem; }
+    .hero p { font-size: 1.2rem; margin: 20px 0; }
+    .btn { display: inline-block; background: #fff; color: #0073e6; padding: 10px 20px; border-radius: 5px; font-weight: bold; }
+
+    /* --- Section --- */
+    section { padding: 60px 20px; max-width: 1100px; margin: auto; }
+    .section-title { text-align: center; margin-bottom: 40px; font-size: 2rem; color: #0073e6; }
+
+    /* --- Services --- */
+    .services { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+    .service { background: #fff; padding: 20px; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+    .service h3 { margin-bottom: 10px; }
+
+    /* --- Projects --- */
+    .projects { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; }
+    .project { background: #fff; padding: 20px; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+    .project h3 { margin-bottom: 10px; }
+    .project a { display: inline-block; margin-top: 10px; color: #0073e6; font-weight: bold; }
+
+    /* --- Contact --- */
+    .contact { text-align: center; }
+    .contact a { display: inline-block; margin: 10px; color: #0073e6; font-weight: bold; }
+
+    /* --- Footer --- */
+    footer { background: #222; color: #fff; text-align: center; padding: 15px; margin-top: 30px; }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav>
+    <h2>Mohamed Adam</h2>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <h1>Hi, I'm Mohamed Sherif Adam</h1>
+    <p>Machine Learning & Data Science Engineer | Freelancer</p>
+    <a href="#contact" class="btn">Hire Me</a>
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <h2 class="section-title">About Me</h2>
+    <p>
+      I’m a Senior Communications & Electronics Engineering student at Helwan University (Graduating 2026).
+      Skilled in Machine Learning, Data Science, Cloud, and Web Development. I’ve built 10+ ML projects including 
+      churn prediction, credit risk analysis, reinforcement learning, and image classification.
+      Certified in AWS Cloud, McKinsey Forward, and NTI Machine Learning.
+    </p>
+  </section>
+
+  <!-- Services -->
+  <section id="services">
+    <h2 class="section-title">Services</h2>
+    <div class="services">
+      <div class="service"><h3>Machine Learning</h3><p>Predictive models, classification, NLP, reinforcement learning.</p></div>
+      <div class="service"><h3>Data Analysis</h3><p>Data cleaning, visualization, and business insights using Python & Tableau.</p></div>
+      <div class="service"><h3>Cloud Solutions</h3><p>Deploy scalable apps on AWS (EC2, Lambda, SageMaker).</p></div>
+      <div class="service"><h3>Web Development</h3><p>Frontend websites and dashboards using HTML, CSS, JS.</p></div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
+    <h2 class="section-title">Projects</h2>
+    <div class="projects">
+      <div class="project">
+        <h3>Customer Churn Prediction</h3>
+        <p>Achieved ROC-AUC 0.89; built interactive Tableau dashboard.</p>
+        <a href="https://github.com/mohamed49" target="_blank">View Project</a>
+      </div>
+      <div class="project">
+        <h3>Credit Risk Assessment</h3>
+        <p>XGBoost on AWS SageMaker, SHAP for interpretability, ROC-AUC 0.86.</p>
+        <a href="https://github.com/mohamed49" target="_blank">View Project</a>
+      </div>
+      <div class="project">
+        <h3>Reinforcement Learning Agent</h3>
+        <p>Q-learning agent; improved cumulative reward by 30%.</p>
+        <a href="https://github.com/mohamed49" target="_blank">View Project</a>
+      </div>
+      <div class="project">
+        <h3>Image Classification</h3>
+        <p>PCA + SVM; 92% accuracy on MNIST dataset.</p>
+        <a href="https://github.com/mohamed49" target="_blank">View Project</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact">
+    <h2 class="section-title">Contact</h2>
+    <p>Let’s work together! Reach me via:</p>
+    <a href="mailto:mohamed.adam0626@gmail.com">Email</a>
+    <a href="https://linkedin.com/in/mohamed-adam1511" target="_blank">LinkedIn</a>
+    <a href="https://github.com/mohamed49" target="_blank">GitHub</a>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Mohamed Sherif Adam | Portfolio</p>
+  </footer>
+
+</body>
+</html>
